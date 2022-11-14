@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<form>
+        <center><img src="pic.png" style="width:100px;height:100px;"></center>
+        <table cellpacing="10" cellpadding="15">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+          .container{
+            display: flex;
+
+          }
+          .map{
+            margin-left: 10px;
+            margin-top: 2%;
+            width: 50%;
+            height: 600px;
+          }
+          .map1{
+            width: 100%;
+            height: 600px;
+
+          }
+          .form{
+            background-color: #93f9f8;
+            margin-left: 20px;
+            margin-top: 2%;
+            width: 50%;
+            height: 600px;
+            display: inline-block;
+          }
+          input{
+            width: 80%;
+            height: 40px;
+            border: none;
+            border-bottom: 2px solid black;
+            background-color:#93f9f8 ;
+          }
+          #name{
+            margin-left: 10%;
+            margin-top: 5%;
+          }
+          #area{
+            margin-top: 8%;
+            margin-left: 10%;
+            height: 80px;
+          }
+          .lab{
+            
+            margin-left: 10%;
+          }
+          .form1{
+            width: 100%;
+            margin-left: 20px;
+            margin-top: 35px;
+          }
+          .col{
+            margin-top: 5%;
+          }
+          button{
+            margin-left: 41%;
+            height: 40px;
+            width: 100px;
+            border-radius: 15%;
+            background-color: black;
+            color: white;
+            font-size: large;
+            font-weight: 600;
+          }
+
+            /* table{
+                margin-top: 40px;
+                margin-left:350px;
+                font-size: 19px;
+                border-collapse:collapse;
+                border-spacing: 0 25px;
+                border: 1px solid rgb(254, 254, 18);
+            }
+            table td{
+                width: 00px;
+            }
+            input{
+                width:300px;
+            }
+            .button1{
+              width: 250px;
+              height:50px;
+              background-color: rgba(225, 149, 62, 0.649);
+            }
+            #button{
+              margin-left: 40px;
+            }
+            .button1:hover{
+              background-color: rgba(228, 196, 56, 0.649);
+            }
+            map{
+              display: flex;
+              flex: 1;
+              
+              margin-left: 500px;
+              margin-top: 0px;
+              padding: 0px;
+            }  */
+        </style>
+</head>
+<body>
+            <div class="nav">
+                <ul>
+                    <li style="padding-top: 0px;padding-left: 0px;"><img id="images" src="kerala.png" alt="Rakuten"></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="images.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                  </ul>
+                </div>
+                <h1 style="margin-left:500px;">we are here to help you</h1>
+                <div class="container" >
+        <div class="form">
+        <form class="form1" action="">
+          <div class="col">
+            <label for="name" class="lab">Whats your name</label>
+            <input autocomplete="name" id = "name"  type="text">
+          </div>
+          <div class="col">
+            <label for="email" class="lab" >your email</label>
+            <input autocomplete="email" id = "name"  type="text">
+          </div>
+          <div class="col">
+            <label for="help" class="lab" >What can we help you with</label>
+            <input autocomplete="off" id = "area"  type="text">
+          </div>
+          <div class="col">
+            <button type ="submit">Send</button>
+          </div>
+        </form>
+        </div>
+        <dir class="map" >
+        <iframe class="map1" src="https://www.google.com/maps/d/embed?mid=16Z3sVr49KyKpik2Jpat4V8wUW64&hl=en_US&ehbc=2E312F" width="640" height="480"></iframe>
+        </div>
+      </div>
+        <hr>
+      </body>
+</html>
